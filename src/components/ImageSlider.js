@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-//import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 class ImageSlider extends Component {
     constructor(props) {
         super(props);
@@ -30,20 +30,19 @@ class ImageSlider extends Component {
     
     render() { 
         return (
-<section className='slider'>
-      <button className='left-arrow' onClick={this.prevSlide} >left</button> 
-      {/* <i class="far fa-angle-left" onClick={this.prevSlide}> </i> */}
-      <button className='right-arrow' onClick={this.nextSlide} >right</button>
-      {/* <i class="far fa-angle-right" onClick={this.nextSlide}></i> */}
+<section className='slider' style={{margin:"auto"}}>
+<FaArrowAltCircleLeft className='left-arrow' onClick={this.prevSlide} style={{float:"left",fontSize:"20px"}}
+ />
+      <FaArrowAltCircleRight className='right-arrow' onClick={this.nextSlide} style={{float:"right",fontSize:"20px"}}/>
       {this.props.slides.map((slide, index) => {
           console.log("index",index)
         return (
           <div
             className={index === this.state.current ? 'slide active' : 'slide'}
-            key={index} style={{margin:"10px"}}
+            key={index} style={{paddingLeft:"10px",paddingRight:"10px"}}
           >
             {index === this.state.current && (
-              <img src={slide.url} alt='travel image' className='image' height="300px" width="100%" />
+              <img src={slide.url} alt='hospital image' className='image' style={{ objectFit:"contain"}} height="300px"  width="100%" />
             )}
             
           </div>

@@ -50,6 +50,7 @@ class PrintPhotoUrls extends Component {
     return (
       <div>
         {/* <ImageSlider slides={this.state.photos}/> */}
+        
 
         {list}
       </div>

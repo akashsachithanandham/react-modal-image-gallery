@@ -24,13 +24,14 @@ class Photos extends Component {
     console.log("inside photos", this.props.url);
     return (
       <React.Fragment>
-        <div class="row">
-          <div className="col-12">
+        <div class="row" >
+          <div className="col-12" >
             <img
               onClick={this.showModal}
               src={this.props.url[this.props.index].url}
               height="300px"
               width="100%"
+              style={{objectFit:"contain"}}
             />
           </div>
         </div>
