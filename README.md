@@ -10,7 +10,10 @@ Please make sure that CORS is enabled in your browser before viewing the website
 
  _ Image Gallery in Mobile View:_
 
-<img src="https://user-images.githubusercontent.com/46894142/110319360-c6638e00-8034-11eb-9dbb-4db6332f54ac.png"  width="390px" height="300px">   
+
+<img src="https://user-images.githubusercontent.com/46894142/110327543-1d229500-8040-11eb-8eb3-302b05738fc0.png"  width="390px" height="300px">   
+
+<img src="https://user-images.githubusercontent.com/46894142/110327579-27dd2a00-8040-11eb-84fe-2818b27de6fc.png"  width="390px" height="300px">   
 
  _ Modal View for the Image Gallery in Mobile View:_
 
