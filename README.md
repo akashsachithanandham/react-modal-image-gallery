@@ -7,6 +7,6 @@ Please make sure that CORS is enabled in your browser before viewing the website
 
 **Screenshots**
 
-![image](https://user-images.githubusercontent.com/46894142/110319360-c6638e00-8034-11eb-9dbb-4db6332f54ac.png)
-![image](https://user-images.githubusercontent.com/46894142/110319476-f743c300-8034-11eb-850b-f4c620117ac2.png)
+![image](https://user-images.githubusercontent.com/46894142/110319360-c6638e00-8034-11eb-9dbb-4db6332f54ac.png =100x20)
+![image](https://user-images.githubusercontent.com/46894142/110319476-f743c300-8034-11eb-850b-f4c620117ac2.png =100x20)
 
